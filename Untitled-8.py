@@ -1,3 +1,7 @@
-price_str = "madhav"
-price_in_float = float(price_str)  # Converts string to float
-print(price_in_float)  # Output: 19.9
+
+number_i = "abc"
+# num = int(number_i)
+try:
+    num = int(number_i)
+except ValueError:
+    print("Cannot convert 'abc' to an integer.")  # Output: Cannot convert 'abc' to an integer.
